@@ -5,12 +5,12 @@ body {
 
 /* Default font size for the specific word */
 .highlight {
-    font-size: 15px; /* Default size for larger screens */
+    font-size: 14px; /* Default size for larger screens */
 }
 
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
     .highlight {
-        font-size: 10px; /* Smaller size for mobile screens */
+        font-size: 9px; /* Smaller size for mobile screens */
     }
 }
