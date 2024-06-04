@@ -1,0 +1,29 @@
+ul li {
+    margin-bottom: 2px; /* Adjust the value as needed */
+    list-style-type: square;
+    font-size: 15px;
+}
+
+ul li::marker {
+    color: #0166FF;            
+}
+
+.white-square {
+    width: 165px; /* Set the width of the square */
+    height: 5px; /* Set the height of the square */
+    background-color: white; /* Set the background color to white */
+    border: 1px solid #0166FF; /* Set the border color to blue and specify the thickness */
+}
+
+a.custom-underline {
+    text-decoration: underline;
+    text-decoration-color: #0166FF; /* Change this to your desired color */
+    text-decoration-thickness: 2.5px;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    ul li {
+        font-size: 11.5px; /* Change this to your desired font size for mobile */
+    }
+}
