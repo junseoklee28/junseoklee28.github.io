@@ -22,6 +22,12 @@ a.custom-underline {
     color: #0166FF;
 }
 
+a.no-link {
+    pointer-events: none;
+    color: black; /* Ensures it looks like regular text */
+    text-decoration: none; /* Removes the underline */
+}
+
 @media (max-width: 767px) {
     ul li {
         font-size: 11.5px; /* Change this to your desired font size for mobile */
