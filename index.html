@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Junseok Lee</title>
+        <title>JUNSEOK LEE</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +13,22 @@
         <link rel="apple-touch-icon" type="image/png" href="/flux.png">
         <style>
             ul li {
-            margin-bottom: 4px; /* Adjust the value as needed */
+                margin-bottom: 2px; /* Adjust the value as needed */
+                list-style-type: square;
+                font-size: 15px;
             }
+
+            ul li::marker {
+                color: #0166FF;            
+            }
+
+            a.custom-underline {
+                text-decoration: underline;
+                text-decoration-color: #0166FF; /* Change this to your desired color */
+                text-decoration-thickness: 3px;
+                color: black;
+            }
+
 
         /* Adjust font size for devices with a max width of 600px */
         @media (max-width: 600px) {
@@ -33,16 +47,17 @@
         </style>
     </head>
     <body>
-        <h2 style="margin-left: 25px; font-family: Noto Sans KR, sans-serif"><strong>Junseok Lee 이준석</strong></h2>
-        <img src="Profile_JunseokLee.jpg" width="230px" style="margin-left: 25px; margin-top: -10px;">
+        <h2 style="margin-left: 20px; color: #0166FF; font-family: Noto Sans KR, sans-serif">JUNSEOK LEE</h2>
+        <h2 style="margin-left: 20px; margin-top: -30px; color: #0166FF; font-family: Noto Sans KR, sans-serif">이준석</h2>
+        <img src="Profile_JunseokLee.jpg" width="170px" style="margin-left: 20px; margin-top: -10px;">
         <ul style="margin-top: 10px; font-family: Open Sans, sans-serif">
             <li>PhD Student in Economics at UC Berkeley</li>
             <li>Research Fields: Public, Urban, and Spatial Economics</li>
-            <li><a href="CV_JunseokLee.pdf" target="_blank" title="CV_JunseokLee" style="color: rgb(0, 0, 0);">CV</a> and Contact: <span style="color: rgb(0, 0, 0);">junseoklee@berkeley.edu</span></li>
-            <li>I also call myself a <a href="https://www.strava.com/athletes/junseoklee" style="color: rgb(0, 0, 0);" target="_blank">triathlete</a><span style="color: rgb(150, 150, 150);">--mostly, to justify my suffering.</span></li>
+            <li><a href="CV_JunseokLee.pdf" target="_blank" title="CV_JunseokLee" class="custom-underline">CV</a> and Contact: <span style="color: rgb(0, 0, 0);">junseoklee@berkeley.edu</span></li>
+            <li>I also call myself a <a href="https://www.strava.com/athletes/junseoklee" class="custom-underline" target="_blank">triathlete</a><span style="color: rgb(150, 150, 150);">--mostly, to justify my suffering.</span></li>
             <li>Thank you. Enjoy your day.</li>
         </ul>
-        <img src="flux.png" width="70px" style="margin-left: 25px; margin-top: 30px;"><span class="highlight" style="font-size: 10px; font-family: Open Sans, sans-serif">© Shigeko Kubota 1966</span>
+        <img src="flux.png" width="70px" style="margin-left: 20px; margin-top: 30px;"><span class="highlight" style="font-size: 10px; font-family: Open Sans, sans-serif">© Shigeko Kubota 1966</span>
     </body>
 </html>
 

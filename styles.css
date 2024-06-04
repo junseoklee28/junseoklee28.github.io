@@ -14,3 +14,22 @@ body {
         font-size: 9px; /* Smaller size for mobile screens */
     }
 }
+
+.todo-section {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 0 10px;
+    width: 50%;
+    border: 1px solid black;
+  }
+  
+  .todo-section label {
+    margin-top: .57rem;
+  }
+
+#bulletPoints {
+    margin: 0;
+    list-style-type: circle;
+    list-style-position: inside;
+  }
