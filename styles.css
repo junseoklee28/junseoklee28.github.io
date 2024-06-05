@@ -19,7 +19,7 @@ a.custom-underline {
     border-bottom: 2px solid #0166FF; /* Change to your desired color and thickness */
     text-decoration: none;
     color: #0166FF;
-    padding-bottom: 0px; /* Adjust to create the space you want */
+    padding-bottom: -1px; /* Adjust to create the space you want */
 }
 
 @media (max-width: 767px) {
