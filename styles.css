@@ -22,8 +22,6 @@ a.custom-underline {
     padding-bottom: 0px; /* Adjust to create the space you want */
 }
 
-
-
 @media (max-width: 767px) {
     ul li {
         font-size: 11.5px; /* Change this to your desired font size for mobile */
