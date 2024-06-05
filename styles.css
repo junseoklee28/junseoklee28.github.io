@@ -18,7 +18,7 @@ ul li::marker {
 a.custom-underline {
     text-decoration: underline;
     text-decoration-color: #0166FF; /* Change this to your desired color */
-    text-decoration-thickness: 2.5px;
+    text-decoration-thickness: 2px;
     text-decoration-skip-ink: none;
     color: #0166FF;
 }
