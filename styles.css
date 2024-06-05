@@ -1,5 +1,5 @@
 ul li {
-    margin-bottom: 1px; /* Adjust the value as needed */
+    margin-bottom: 4px; /* Adjust the value as needed */
     list-style-type: square;
     font-size: 15px;
 }
@@ -16,12 +16,13 @@ ul li::marker {
 }
 
 a.custom-underline {
-    text-decoration: underline;
-    text-decoration-color: #0166FF; /* Change this to your desired color */
-    text-decoration-thickness: 1.5px;
-    
+    border-bottom: 2px solid #0166FF; /* Change to your desired color and thickness */
+    text-decoration: none;
     color: #0166FF;
+    padding-bottom: 0px; /* Adjust to create the space you want */
 }
+
+
 
 @media (max-width: 767px) {
     ul li {
