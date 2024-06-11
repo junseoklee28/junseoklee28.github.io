@@ -22,6 +22,13 @@ a.custom-underline {
     padding-bottom: -1px; /* Adjust to create the space you want */
 }
 
+a.coauthor-underline {
+    border-bottom: 1.5px solid black; /* Change to your desired color and thickness */
+    text-decoration: none;
+    color: black;
+    padding-bottom: -1px; /* Adjust to create the space you want */
+}
+
 @media (max-width: 767px) {
     ul li {
         font-size: 11px; /* Change this to your desired font size for mobile */
