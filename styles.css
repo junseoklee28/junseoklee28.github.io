@@ -38,6 +38,6 @@ a.coauthor-underline {
 
 @media (max-width: 767px) {
     ul li {
-        font-size: 11px; /* Change this to your desired font size for mobile */
+        font-size: 12px; /* Change this to your desired font size for mobile */
     }
 }
