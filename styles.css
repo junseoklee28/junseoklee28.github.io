@@ -9,7 +9,7 @@ ul li::marker {
 }
 
 .white-square {
-    width: 165px; /* Set the width of the square */
+    width: 185px; /* Set the width of the square */
     height: 5px; /* Set the height of the square */
     background-color: white; /* Set the background color to white */
     border: 1px solid #0166FF; /* Set the border color to blue and specify the thickness */
