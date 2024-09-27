@@ -5,27 +5,27 @@ ul li {
 }
 
 ul li::marker {
-    color: #337ACC;            
+    color: #0166FF;            
 }
 
 .white-square {
     width: 185px; /* Set the width of the square */
     height: 5px; /* Set the height of the square */
     background-color: white; /* Set the background color to white */
-    border: 1px solid #337ACC; /* Set the border color to blue and specify the thickness */
+    border: 1px solid #0166FF; /* Set the border color to blue and specify the thickness */
 }
 
 a.custom-underline {
-    border-bottom: 1.5px solid #337ACC; /* Change to your desired color and thickness */
+    border-bottom: 1.5px solid #0166FF; /* Change to your desired color and thickness */
     text-decoration: none;
-    color: #337ACC;
+    color: #0166FF;
     padding-bottom: -1px; /* Adjust to create the space you want */
 }
 
 a.link-underline {
-    border-bottom: 0px solid #337ACC; /* Change to your desired color and thickness */
+    border-bottom: 0px solid #0166FF; /* Change to your desired color and thickness */
     text-decoration: none;
-    color: #337ACC;
+    color: #0166FF;
     padding-bottom: -1px; /* Adjust to create the space you want */
 }
 
