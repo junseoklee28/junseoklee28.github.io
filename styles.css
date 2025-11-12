@@ -92,7 +92,7 @@ a.coauthor-underline {
 @media (max-width: 767px) {
     body {
         align-items: flex-start;  /* push content to the top */
-        padding-top: 40px;        /* add some breathing room from the top */
+        padding-top: 140px;        /* add some breathing room from the top */
       }
     
       .content {
