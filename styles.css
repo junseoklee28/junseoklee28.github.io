@@ -1,3 +1,55 @@
+/* Center everything in the middle of the page */
+body {
+    font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    height: 100vh;             /* full screen height */
+    margin: 0;
+  }
+  
+  /* Content box */
+  .content {
+    text-align: center;        /* center text inside */
+    max-width: 600px;          /* optional: limit width for readability */
+    padding: 20px;
+  }
+  
+  /* Optional: adjust header */
+  .header-title {
+    color: #0166FF;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .header-link {
+    color: #0166FF;
+    text-decoration: none;
+  }
+  
+  /* Image style */
+  .profile-pic {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  
+  /* Links always blue */
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #0166FF;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
 ul li {
     margin-bottom: 4px; /* Adjust the value as needed */
     list-style-type: square;
