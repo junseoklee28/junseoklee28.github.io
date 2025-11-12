@@ -89,11 +89,12 @@ a.coauthor-underline {
 }
 
 @media (max-width: 767px) {
-    ul li {
-        font-size: 12px; /* Change this to your desired font size for mobile */
-    }
-
-    .content {
-        transform: translateY(-8%);  /* move up slightly on mobile */
+    body {
+        align-items: flex-start;  /* push content to the top */
+        padding-top: 60px;        /* add some breathing room from the top */
+      }
+    
+      .content {
+        transform: none;          /* disable any centering transforms */
       }
 }
