@@ -15,6 +15,7 @@ body {
     text-align: center;        /* center text inside */
     max-width: 600px;          /* optional: limit width for readability */
     padding: 20px;
+    margin-top: -70px; /* move upward by 40px */
   }
   
   /* Optional: adjust header */
