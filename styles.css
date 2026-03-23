@@ -89,7 +89,15 @@ a.coauthor-underline {
     padding-bottom: -1px; /* Adjust to create the space you want */
 }
 
+.tagline {
+    white-space: nowrap;
+}
+
 @media (max-width: 767px) {
+    .tagline {
+        white-space: normal;
+        font-size: 14px;
+    }
     body {
         align-items: flex-start;  /* push content to the top */
         padding-top: 100px;        /* add some breathing room from the top */
