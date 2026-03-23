@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.21)  23 MAR 2026 08:50
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.21)  23 MAR 2026 08:57
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Users/junseoklee/Library/CloudStorage/Dropbox/Homepage/web/junseoklee28.github.io/CV_JunseokLee
@@ -428,12 +428,12 @@ Here is how much of LuaTeX's memory you used:
  125027,1977958 words of node,token memory allocated
  436 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 54 glue_spec, 4 attribute_list, 1 write nodes
-   avail lists: 2:280,3:223,4:88,5:467,6:50,7:3437,8:2,9:236,10:2,11:248
+   avail lists: 2:284,3:235,4:88,5:467,6:50,7:3437,8:2,9:239,10:2,11:248
  34048 multiletter control sequences out of 65536+600000
  27 fonts using 62146791 bytes
  79i,5n,89p,421b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Fonts/SF-Pro-Display-LightItalic.otf></Library/Fonts/SF-Pro-Display-Light.otf></Library/Fonts/SF-Pro-Display-Bold.otf>
-Output written on CV_JunseokLee.pdf (1 page, 13700 bytes).
+Output written on CV_JunseokLee.pdf (1 page, 13687 bytes).
 
 PDF statistics: 37 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
