@@ -1,0 +1,97 @@
+\documentclass[11pt,letterpaper]{article}
+
+% ---------- Fonts ----------
+
+\usepackage{fontspec}
+\setsansfont[
+	Path=/Library/Fonts/,
+	UprightFont = SF-Pro-Display-Light.otf,
+	BoldFont = SF-Pro-Display-Bold.otf,
+	ItalicFont = SF-Pro-Display-LightItalic.otf
+]{SF Pro}
+\setmainfont[
+	Path=/Library/Fonts/,
+	UprightFont = SF-Pro-Display-Light.otf,
+	BoldFont = SF-Pro-Display-Bold.otf,
+	ItalicFont = SF-Pro-Display-LightItalic.otf
+]{SF Pro}
+
+% ---------- Colors ----------
+
+\usepackage{color}
+\definecolor{b}{RGB}{51,122,204}
+\definecolor{r}{RGB}{239,65,53}
+
+% ---------- Spacing ----------
+
+\usepackage[onehalfspacing]{setspace}
+\AtBeginDocument{\frenchspacing}
+
+% ---------- Layout ----------
+
+\usepackage[margin=1.1in]{geometry}
+\usepackage{enumitem}
+
+% ---------- Headings ----------
+
+\usepackage{titlesec}
+\titleformat*{\section}{\large\bfseries}
+\titlespacing{\section}{0pt}{12pt}{4pt}
+
+% ---------- Hyperlinks ----------
+
+\usepackage{fancyhdr}
+\usepackage[hidelinks,hypertexnames=false,pdfpagemode=UseNone,pdfdisplaydoctitle=true]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=r,
+    urlcolor=b,
+    citecolor=r,
+}
+
+% ---------- Headers + footers ----------
+
+\renewcommand{\headrule}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+\thispagestyle{empty}
+
+% Header
+\noindent{\LARGE\bfseries JUNSEOK LEE} \\[8pt]
+\noindent\href{mailto:junseoklee@berkeley.edu}{junseoklee@berkeley.edu} \quad | \quad \href{https://junseok-lee.com}{junseok-lee.com} \quad | \quad Updated \ifcase\month\or January\or February\or March\or April\or May\or June\or July\or August\or September\or October\or November\or December\fi{} \the\year \\[2pt]
+\noindent 556 Evans Hall, Department of Economics, University of California, Berkeley, CA 94720
+
+\section*{Education}
+\begin{itemize}[leftmargin=*, nosep]
+    \item UC Berkeley, PhD, Economics, 2028 (Expected)
+    \item Seoul National University, BA, Economics, 2020
+\end{itemize}
+
+\section*{Work in Progress}
+\begin{itemize}[leftmargin=*, nosep]
+    \item Social Matching and Agglomeration: Theory and Evidence from the Marriage Market
+    \item Globalization and Popular Culture
+    \item Time and Human Nature: Shadow Prices of Non-Traded States
+\end{itemize}
+
+\section*{Publication}
+\begin{itemize}[leftmargin=*, nosep]
+    \item Risk Compensation after COVID-19 Vaccination: Evidence from Vaccine Rollout by Exact Birth Date in South Korea (with Jisoo Hwang, Seung-sik Hwang, Hyuncheol Bryant Kim, Jungmin Lee), \textit{Health Economics}, 2024, 1--20.
+\end{itemize}
+
+\section*{Honors and Awards}
+\begin{itemize}[leftmargin=*, nosep]
+    \item Kwanjeong Overseas Scholarship, 2022--2026
+    \item SBS Scholarship, 2020--2022
+    \item Summa Cum Laude, Seoul National University, 2020
+\end{itemize}
+
+\section*{Personal}
+\begin{itemize}[leftmargin=*, nosep]
+    \item Citizenship: South Korea
+\end{itemize}
+
+\end{document}
