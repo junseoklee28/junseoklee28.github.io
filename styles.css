@@ -94,6 +94,12 @@ a.coauthor-underline {
 }
 
 @media (max-width: 767px) {
+    .info {
+        font-size: 14px;
+    }
+    .info a {
+        display: block;
+    }
     .tagline {
         white-space: normal;
         font-size: 14px;
