@@ -93,16 +93,20 @@ a.coauthor-underline {
     white-space: nowrap;
 }
 
+.mobile-break {
+    display: none;
+}
+
 @media (max-width: 767px) {
     .info {
         font-size: 14px;
     }
-    .info a {
-        display: block;
-    }
     .tagline {
         white-space: normal;
         font-size: 14px;
+    }
+    .mobile-break {
+        display: inline;
     }
     body {
         align-items: flex-start;  /* push content to the top */
