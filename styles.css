@@ -99,11 +99,11 @@ a.coauthor-underline {
 
 @media (max-width: 767px) {
     .info {
-        font-size: 15px;
+        font-size: 16px;
     }
     .tagline {
         white-space: normal;
-        font-size: 15px;
+        font-size: 16px;
     }
     .mobile-break {
         display: inline;
