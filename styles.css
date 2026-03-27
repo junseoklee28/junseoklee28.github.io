@@ -20,7 +20,7 @@ body {
   
   /* Optional: adjust header */
   .header-title {
-    color: #0166FF;
+    color: #000000;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -87,6 +87,50 @@ a.coauthor-underline {
     text-decoration: none;
     color: black;
     padding-bottom: -1px; /* Adjust to create the space you want */
+}
+
+.artwork-crop {
+    width: 200px;
+    margin: 0 auto 25px;
+    overflow: hidden;
+    max-height: 258px; /* adjust this to crop more or less */
+}
+
+.artwork-crop img {
+    margin-top: -0px; /* adjust to crop top */
+}
+
+.mood-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.mood-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.15s;
+}
+
+.mood-btn:hover {
+    transform: scale(1.2);
+}
+
+#btn-original {
+    background-color: white;
+}
+
+#btn-happy {
+    background-color: #E8820C;
+}
+
+#btn-sad {
+    background-color: #0166FF;
 }
 
 .tagline {

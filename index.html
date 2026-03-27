@@ -12,11 +12,41 @@
 
 <body>
     <div class="content">
-    <h2 class="header-title">
+    <h2 class="header-title" id="name-title">
         JUNSEOK LEE
     </h2>
-    <img src="zenfortv_paik.jpeg" alt="Junseok Lee" width="200" style="border-radius: 0px; margin-bottom: 5px;">
-    <p class="info">PhD student in economics at UC Berkeley &ensp;|&ensp; <a href="CV_JunseokLee.pdf?v=2026-03" target="_blank" title="CV_JunseokLee">CV</a></p>
+    <div class="mood-buttons">
+        <button class="mood-btn active" id="btn-original" onclick="switchMood('original')" title="Original"></button>
+        <button class="mood-btn" id="btn-happy" onclick="switchMood('happy')" title="Happy"></button>
+        <button class="mood-btn" id="btn-sad" onclick="switchMood('sad')" title="Sad"></button>
+    </div>
+    <div class="artwork-crop">
+        <img src="zenfortv_original.jpg" alt="Junseok Lee" width="200" id="artwork-img">
+    </div>
+    <p class="info">PhD student in economics at UC Berkeley &ensp;|&ensp; <a href="CV_JunseokLee.pdf?v=2026-03" target="_blank" title="CV_JunseokLee" id="cv-link" style="color: #000000;">CV</a></p>
+    <script>
+    function switchMood(mood) {
+        var img = document.getElementById('artwork-img');
+        var title = document.getElementById('name-title');
+        var cv = document.getElementById('cv-link');
+        var btns = document.querySelectorAll('.mood-btn');
+        btns.forEach(function(b) { b.classList.remove('active'); });
+        document.getElementById('btn-' + mood).classList.add('active');
+        if (mood === 'original') {
+            img.src = 'zenfortv_original.jpg';
+            title.style.color = '#000000';
+            cv.style.color = '#000000';
+        } else if (mood === 'happy') {
+            img.src = 'zenfortv_happy.png';
+            title.style.color = '#E8820C';
+            cv.style.color = '#E8820C';
+        } else if (mood === 'sad') {
+            img.src = 'zenfortv_sad.png';
+            title.style.color = '#0166FF';
+            cv.style.color = '#0166FF';
+        }
+    }
+    </script>
     <p class="tagline">I study spatial economics,<br class="mobile-break"> often with ideas from the humanities.</p>
     </div>
 </body>
