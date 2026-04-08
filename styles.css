@@ -133,6 +133,10 @@ a.coauthor-underline {
     background-color: #0166FF;
 }
 
+#btn-xcx {
+    background-color: #4CAF50;
+}
+
 .tagline {
     white-space: nowrap;
 }

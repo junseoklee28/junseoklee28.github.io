@@ -19,6 +19,7 @@
         <button class="mood-btn active" id="btn-original" onclick="switchMood('original')" title="Original"></button>
         <button class="mood-btn" id="btn-happy" onclick="switchMood('happy')" title="Happy"></button>
         <button class="mood-btn" id="btn-sad" onclick="switchMood('sad')" title="Sad"></button>
+        <button class="mood-btn" id="btn-xcx" onclick="switchMood('xcx')" title="XcX"></button>
     </div>
     <div class="artwork-crop">
         <img src="zenfortv_original.jpg" alt="Junseok Lee" width="200" id="artwork-img">
@@ -44,6 +45,10 @@
             img.src = 'zenfortv_sad.png';
             title.style.color = '#0166FF';
             cv.style.color = '#0166FF';
+        } else if (mood === 'xcx') {
+            img.src = 'zenfortv_xcx.png';
+            title.style.color = '#4CAF50';
+            cv.style.color = '#4CAF50';
         }
     }
     </script>
